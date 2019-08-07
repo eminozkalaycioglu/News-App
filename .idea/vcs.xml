@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/NewsApplication" vcs="" />
     <mapping directory="$PROJECT_DIR$/Yeni klasör/organizasyon/EDL/XXX/EMIN 24.12.18 PCYEDEK/2018-3.donem-dersNotlari/2018 biten ödevler/web" vcs="" />
     <mapping directory="$PROJECT_DIR$/newsapp" vcs="" />

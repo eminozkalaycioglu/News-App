@@ -121,6 +121,7 @@ public class HomePageAdapter extends RecyclerView.Adapter<HomePageAdapter.CardDe
                 intent.putExtra(String.valueOf(R.string.putExtraNewPhotoUrl), news.getNewPhotoUrl());
                 intent.putExtra(String.valueOf(R.string.putExtraDescription),news.getNewDescription());
                 intent.putExtra(String.valueOf(R.string.putExtraNewUrl),news.getNewUrl());
+                intent.putExtra(String.valueOf(R.string.putExtraNewAuthor),news.getNewAuthor());
                 intent.putExtra(String.valueOf(R.string.putExtraNewPublishedAt),news.getPublishedAt());
                 context.startActivity(intent);
             }
