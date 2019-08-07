@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_homepage"
+        android:enabled="true"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Homepage"
+        app:showAsAction="ifRoom" />
+
+    <item
+    android:id="@+id/action_read_news"
+    android:enabled="true"
+        android:icon="@drawable/ic_import_contacts_black_24dp"
+    android:title="Read News"
+    app:showAsAction="ifRoom" />
+
+
+</menu>

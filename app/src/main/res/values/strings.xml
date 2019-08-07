@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">NewsApplication</string>
+    <string name="putExtraDescription">putExtraDescription</string>
+    <string name="putExtraNewPhotoUrl">putExtraNewPhotoUrl</string>
+    <string name="putExtraNewUrl">putExtraNewUrl</string>
+    <string name="putExtraNewAuthor">putExtraNewAuthor</string>
+    <string name="putExtraNewPublishedAt">putExtraNewPublishedAt</string>
+    <string name="defaultResponseSource">techcrunch</string>
+    <string name="defaultResponseCountry">tr</string>
+    <string name="apiKey">af13a298c80242c3ad2f672a25acae72</string>
+    <string name="BASE_URL">https://newsapi.org/</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>>
+</resources>

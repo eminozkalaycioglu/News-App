@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollViewIntent"
+    android:background="#000000"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        tools:context=".Activities.IntentNewDetail">
+
+        <ImageView
+            android:id="@+id/detailNewPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+
+            android:id="@+id/detailNewDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/detailNewPublishedAt"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+
+            android:layout_marginTop="33dp"
+            android:layout_marginRight="20dp"
+            android:text="TextView"
+            android:textColor="#FFFFFF" />
+
+
+        <TextView
+            android:id="@+id/detailForMoreDetail"
+            android:textColor="#FFFFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/detailNewAuthor"
+
+
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="130dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="56dp"
+            android:text="For More Detail: "
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/detailNewUrl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/detailForMoreDetail"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginRight="20dp"
+            android:autoLink="web"
+            android:text="TextView"
+            android:textColorLink="#FFFFFF"
+
+            />
+
+        <TextView
+            android:id="@+id/detailNewAuthor"
+            android:textColor="#FFFFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/detailNewDescription"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="37dp"
+            android:layout_marginEnd="172dp"
+            android:layout_marginRight="172dp"
+            android:text="Author: "
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/detailNewPublishedAt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/detailNewPhoto"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:text="TextView"
+            android:textColor="#FFFFFF"
+            android:textSize="10sp" />
+
+
+    </RelativeLayout>
+</ScrollView>
